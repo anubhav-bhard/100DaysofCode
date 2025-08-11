@@ -22,10 +22,10 @@ print("Welcome to the rollercoaster! Scenerio2")
 if height >= 120:
     print("You can ride the rollercaster")
     if age <= 12:
-        print("Please Pay $5")
-    elif age  < 18:
         print("Please Pay $7")
-    else:
+    elif age  < 18:
         print("Please Pay $12")
+    else:
+        print("Please Pay $15")
 else:
     print("Sorry you can not ride rollercaster.")
